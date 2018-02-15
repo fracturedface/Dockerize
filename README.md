@@ -8,7 +8,7 @@ If you are running Linux, try using the [Get Docker](https://get.docker.com/) sc
 `sudo chmod g+rwx "/home/{USERNAME}/.docker" -R`
 
 If the script does not support your OS, head over to The [Docker Install Guide](https://docs.docker.com/install/)<br>
-## Building The Image
+## Building & Starting The Image
 `git clone https://github.com/fracturedface/Dockerize.git`<br>
 `docker build -t "Image-Name" Dockerize`<br>
 `docker create --name Container-Name Image-Name`<br>
